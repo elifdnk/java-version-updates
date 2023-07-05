@@ -41,6 +41,7 @@ public class Main {
         System.out.println(Currency.PENNY.getValue());
         System.out.println(Currency.QUARTER.getValue());
 
+        System.out.println(Currency.QUARTER.ordinal());  //ordinal gives us enum's index.
 
 
 
