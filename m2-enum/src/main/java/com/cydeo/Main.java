@@ -37,6 +37,16 @@ public class Main {
         calculate(3,5,Operation.MULTIPLY);
 
 
+        System.out.println("*** How top retrieve the constant value ***");
+        System.out.println(Currency.PENNY.getValue());
+        System.out.println(Currency.QUARTER.getValue());
+
+
+
+
+
+
+
     }
 
     private static void calculate (double x, double y,Operation operation){
