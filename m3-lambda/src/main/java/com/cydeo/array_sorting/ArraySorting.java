@@ -1,4 +1,4 @@
-package com.cydeo;
+package com.cydeo.array_sorting;
 
 public class ArraySorting { //QuickSort, BubbleSort
     public static void main(String[] args) {

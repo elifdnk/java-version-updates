@@ -1,4 +1,4 @@
-package com.cydeo;
+package com.cydeo.array_sorting;
 
 public class QuickSort implements Sorting{
 
