@@ -5,6 +5,11 @@ public class ArraySorting { //QuickSort, BubbleSort
 
         ArraySorting as = new ArraySorting();
 
+        QuickSort qs = new QuickSort();
+        BubbleSort bs = new BubbleSort();
+
+        as.sort(qs);
+        as.sort(bs);
 
 
     }
