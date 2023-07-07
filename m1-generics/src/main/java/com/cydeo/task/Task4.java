@@ -12,5 +12,7 @@ public class Task4 {
     }
 
 
+    //we write "Number" we must to know our generic type support number. because of this this gives us compile.
+
 
     }
