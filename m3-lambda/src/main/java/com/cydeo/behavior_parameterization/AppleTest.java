@@ -20,6 +20,10 @@ public class AppleTest {
         System.out.println(greenApple);
 
 
+        ApplePredicate weightApple = (Apple apple)->apple.getWeight()>200;
+        filterApples(inventory,weightApple);
+
+
     }
 
     private static List<Apple> filterApples(List<Apple> inventory, ApplePredicate applePredicate) {
