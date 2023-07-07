@@ -11,6 +11,7 @@
     <modules>
         <module>m1-generics</module>
         <module>m2-enum</module>
+        <module>m3-generics_enum_tasks</module>
     </modules>
 
     <properties>
