@@ -1,5 +1,11 @@
 package com.cydeo.review;
 
 public enum Role {
-    ADMIN, MANAGER, EMPLOYEE
+    ADMIN("Admin"), MANAGER("Manager"), EMPLOYEE("Employee");
+
+    public String value;
+
+    Role(String value) {
+        this.value = value;
+    }
 }
