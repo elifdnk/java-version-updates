@@ -8,7 +8,7 @@ public class GenericsTest {
 
         List<Student> studentList = new ArrayList<>();
         studentList.add(new Student("Mike", 101));
-        studentList.add(new Student("Joe", 102));
+       studentList.add(new Student("Joe", 102));
         studentList.add(new Student("Adam", 103));
 
 
@@ -16,8 +16,23 @@ public class GenericsTest {
         teacherList.add(new Teacher("Albus", 201));
         teacherList.add(new Teacher("Severus", 202));
 
-        printInfo(studentList);
-        printInfo(teacherList);
+      //  printInfo(studentList);
+     //   printInfo(teacherList);
+
+        // System.out.println(getLastItem(studentList));
+//  System.out.println(getLastItem(teacherList));
+
+        MyUtils<Student> obj1 = new MyUtils<>();
+        obj1.printInfo2(studentList);
+        System.out.println(obj1.getLastItem(studentList));
+
+        MyUtils<Teacher> obj2 = new MyUtils<>();
+        obj2.printInfo2(teacherList);
+        System.out.println(obj2.getLastItem(teacherList));
+
+
+       // MyUtils <String> obj3 = new MyUtils<>();
+        //we can not use this.
 
 
     }
