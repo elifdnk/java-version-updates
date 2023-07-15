@@ -1,6 +1,7 @@
 package cydeo.com;
 
 import java.util.function.BiFunction;
+import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
@@ -30,6 +31,10 @@ public class Main {
 
         Function<Integer,Double> b = new MyClass()::method;
         BiFunction<MyClass,Integer,Double> b1 = MyClass ::method;
+
+        Consumer<Integer> display = i -> System.out.println(i);
+        Consumer<Integer> display2 = System.out::println;
+
 
 
 
