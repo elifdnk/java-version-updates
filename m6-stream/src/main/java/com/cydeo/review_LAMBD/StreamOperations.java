@@ -41,9 +41,12 @@ public class StreamOperations {
         //MAP
         System.out.println("Map");
         list.stream()
-                .filter(i -> i%2==0)
                 .map(i->i*5)
+                .filter(i->i%3==0)
                 .forEach(System.out::println);
+
+
+
 
 
 
