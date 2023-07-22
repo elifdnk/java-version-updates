@@ -1,4 +1,4 @@
-package com.cydeo.review_LAMBD;
+package com.cydeo;
 
 import java.util.Arrays;
 import java.util.List;
