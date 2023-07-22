@@ -1,4 +1,4 @@
-package com.cydeo.review;
+package com.cydeo.review_LAMBD;
 
 public enum Role {
     ADMIN("Admin"), MANAGER("Manager"), EMPLOYEE("Employee");

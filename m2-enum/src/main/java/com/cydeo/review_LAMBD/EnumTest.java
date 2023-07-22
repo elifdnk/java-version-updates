@@ -1,4 +1,4 @@
-package com.cydeo.review;
+package com.cydeo.review_LAMBD;
 
 public class EnumTest {
     public static void main(String[] args) {

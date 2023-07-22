@@ -1,11 +1,10 @@
-package com.cydeo.review;
+package com.cydeo.review_LAMBD;
 
-public class Student extends Person{
-
+public class Teacher extends Person{
     private String name;
     private int id;
 
-    public Student(String name, int id) {
+    public Teacher(String name, int id) {
         this.name = name;
         this.id = id;
     }
@@ -28,7 +27,7 @@ public class Student extends Person{
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "Teacher{" +
                 "name='" + name + '\'' +
                 ", id=" + id +
                 '}';
