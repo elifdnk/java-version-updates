@@ -75,7 +75,7 @@ public class CollectorsDemo {
         Map<Type,List<Dish>> dishType = DishData.getAll().stream()
                .collect(Collectors.groupingBy(Dish::getType));
 
-      //  System.out.println(dishType);
+        System.out.println(dishType);
 
 
 

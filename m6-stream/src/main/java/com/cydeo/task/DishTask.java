@@ -1,6 +1,7 @@
 package com.cydeo.task;
 
 import java.util.Comparator;
+import java.util.Optional;
 
 import static java.util.Comparator.comparing;
 
@@ -36,6 +37,17 @@ public class DishTask {
                 .map(Dish::getName)
                 .forEach(System.out::println);
 
+
+        //How would you count the number of dishes in a stream using the map and reduce methods?
+       Optional<Integer> result = DishData.getAll().stream()
+                .map(p->1)
+                .reduce(Integer::sum);
+
+       //Different solution
+      /* int result2 = DishData.getAll().stream()
+               .mapToInt(p->1)
+               .sum();
+       */
 
 
 
